@@ -90,7 +90,7 @@ function ViewStocks() {
 
       Search:<input className="-" type="text" name="pId" placeholder="Product ID or Product name" required onChange={handleSearch}  />
 
-      Status:<select class="" id="inputGroupSelect01" name="status" required>
+      {/* Status:<select class="" id="inputGroupSelect01" name="status" required>
 
         <option name="status" value="Active">Active</option>
 
@@ -104,7 +104,7 @@ function ViewStocks() {
 
         <option name="status" value="Unavailable">Unavailable</option>
 
-      </select>
+      </select> */}
 
       {stocks.map((item, index) => {
 
